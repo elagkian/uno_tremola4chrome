@@ -1,0 +1,24 @@
+{
+  "name": "UNO",
+  "description": "UNO card game",
+  "icon": "assets/uno.svg",
+  "init": "initUno()",
+  "id": "uno",
+  "cssFile": "resources/uno.css",
+  "scripts": [
+    "src/uno.js"
+  ],
+  "htmlFile": "resources/uno.html",
+  "scenario": {
+    "uno-screen": {
+      "menu": {
+        "New Game": "menu_newgame",
+        "Rules": "menu_rules"
+      },
+      "display": [
+        "div:back",
+        "div:uno-screen"
+      ]
+    }
+  }
+}
